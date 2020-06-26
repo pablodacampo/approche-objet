@@ -15,8 +15,20 @@ public class TestPerson {
 	
 		Person person2 = new Person( "Pickford", "Joe", address2 );
 		
-		System.out.println(person1);
-		System.out.println(person2);
+		String id1 = person1.getName();
+		String id2 = person2.getName();
+		
+		System.out.println(id1);
+		System.out.println(id2);		
+		
+		person1.setSurname("Champion");
+		System.out.println(person1.getName());
+		
+		Address addPerson2 = person2.getAddress();
+		
+		System.out.println(addPerson2);
+
+	
 		
 
 	}

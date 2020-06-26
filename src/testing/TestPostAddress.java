@@ -11,8 +11,8 @@ public class TestPostAddress {
 		
 		Address address2 = new Address( 10, "Chester Way", 75000, "Paris" );
 		
-		System.out.println(address1);
-		System.out.println(address2);
+		// System.out.println(address1);
+		// System.out.println(address2);
 
 	}
 
