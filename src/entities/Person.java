@@ -2,11 +2,11 @@ package entities;
 
 public class Person {
 	
-	public String surname;
-	public String prename;
-	public Address address;
+	private String surname;
+	private String prename;
+	private Address address;
 	
-	public static String race = "Human";
+	public static final String race = "Human";
 	
 	public Person( String newSurname, String newPrename, Address newAddress) {
 		
